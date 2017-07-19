@@ -33,7 +33,7 @@ date_format(s.DateAdded, '%W %D %M %Y %H:%i') 'DateAdded' from "
 ";
 
 #Fills <title> tag. If left empty will default to $PageTitle in config_inc.php  
-$config->titleTag = 'Muffins made with love & PHP in Seattle';
+$config->titleTag = 'Surveys made with love & PHP in Seattle';
 
 #Fills <meta> tags.  Currently we're adding to the existing meta tags in config_inc.php
 $config->metaDescription = 'Seattle Central\'s ITC250 Class Muffins are made with pure PHP! ' . $config->metaDescription;
@@ -60,7 +60,7 @@ get_header(); #defaults to theme header or header_inc.php
 
 <p>This page, along with <b>survey_view.php</b>, demonstrate a List/View web application.</p>
 <p>It was built on the mysql shared web application page, <b>demo_shared.php</b></p>
-<p>This page is the entry point of the application, meaning this page gets a link on your web site.  Since the current subject is muffins, we could name the link something clever like <a href="<?php echo VIRTUAL_PATH; ?>index.php.php">Muffins</a></p>
+<p>This page is the entry point of the application, meaning this page gets a link on your web site.  Since the current subject is surveys, we could name the link something clever like <a href="<?php echo VIRTUAL_PATH; ?>index.php.php">Surveys</a></p>
 <p>Use <b>index.php.php</b> and <b>survey_view.php</b> as a starting point for building your own List/View web application!</p> 
 <?php
 #reference images for pager
